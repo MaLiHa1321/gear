@@ -67,7 +67,7 @@ margin: 10px;
 }
 .banner-img{
     margin-top: 8%;
-    background-image: url('../influencer-gear/images/Circle\ design.svg');
+    background-image: url('./images/Circle\ design.svg');
     background-position: right center;
     background-repeat: no-repeat;
    background-size: cover;
@@ -90,6 +90,7 @@ margin: 10px;
 }
 
 .card-title{
+    width: 70%;
     text-align: center;
     color: #3A3A3A;
     margin: 50px 20px;
@@ -205,7 +206,7 @@ footer p{
    
     }
     .sponser{
-        width: 100%
+        width: 80%
        
     }
     .sponser-container{
@@ -215,8 +216,11 @@ footer p{
     .spons{
         padding: 5px;
     }
+    .card-content{
+        width: 70%;
+    }
     .container{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         grid-template-columns: 1fr;
         margin: 30px;
@@ -224,7 +228,7 @@ footer p{
     }
     .feature-container{
      
-       width: 100%;
+       width: 80%;
      
        flex-direction: column-reverse;
     }
@@ -238,7 +242,7 @@ footer p{
  }
 
  .see{
-    width: 8%;
+    width: 20%;
     color: #E02C6D;
 }
     
