@@ -1,0 +1,302 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&family=Work+Sans:wght@300;400&family=Ysabeau+Infant:wght@300&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+ 
+
+}
+body{
+    overflow-x: hidden;
+}
+header{
+  
+   background: #FFF;
+   padding: 50px;
+  
+}
+nav{
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.banner-container{
+    width: 50%;
+}
+.banner-title{
+    color: #3A3A3A;
+
+font-size: 3rem;
+
+font-weight: 700;
+
+}
+.btn-primary{
+    padding: 10px;
+    border-radius: 41px;
+background: #E02C6D;
+width: 30%;
+border: none;
+color: #fff;
+font-weight: 700;
+margin: 10px;
+}
+.banner-img{
+    margin-top: 8%;
+    background-image: url('../influencer-gear/images/Circle\ design.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.banner-img img{
+    width: 100%;
+    height: 80%;
+}
+.sponser{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgb(201, 197, 197);
+   
+}
+.sponser-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-title{
+    text-align: center;
+    color: #3A3A3A;
+    margin: 50px 20px;
+font-size: 28px;
+
+font-weight: 600;
+
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+.card{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.card img{
+    width: 100%;
+    height: 50%;
+}
+.checked {
+    color: orange;
+  }
+.see{
+    width: 10%;
+    color: #E02C6D;
+}
+.feature-container{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+   flex-direction: row-reverse;
+}
+.feature-text{
+    width: 60%;
+}
+.feat-head{
+    padding: 20px;
+    color: #0A0826;
+
+font-size: 2rem;
+
+font-weight: 700;
+
+}
+.feat-para{
+    color: #6C6C6C;
+    padding: 10px;
+}
+.btn{
+    padding: 10px 30px;
+    background: #E02C6D;
+    color: #fff;
+    border: none;
+    margin: 20px;
+}
+footer{
+    background: #0A0826;
+    margin-top: 10%;
+    
+}
+.footer-container{
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+}
+.footer-text{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+   
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+/* responsive */
+@media screen  and (max-width: 576px){
+   
+    header{
+        padding: 20px;
+       
+     }
+     nav{
+      flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+       
+    }
+    .banner-container{
+        width: 100%;
+        align-items: center;
+    }
+    .btn-primary{
+      width: 50%;
+   
+    }
+    .sponser{
+        width: 100%
+       
+    }
+    .sponser-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+     }
+    .spons{
+        padding: 5px;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        margin: 30px;
+    
+    }
+    .feature-container{
+     
+       width: 100%;
+     
+       flex-direction: column-reverse;
+    }
+    .feature-text{
+        width: 100%;
+        padding: 30px;
+    }
+    footer{
+        width: 100%;
+    
+ }
+
+ .see{
+    width: 8%;
+    color: #E02C6D;
+}
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+   
+    header{
+        padding: 20px;
+       
+     }
+    
+    nav{
+      flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+       
+    }
+    .banner-container{
+        width: 100%;
+        align-items: center;
+    }
+    .btn-primary{
+        width: 60%;
+       
+     }
+        .sponser{
+            width: 100%
+           
+        }
+        .sponser-container{
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+        }
+        .spons{
+            padding: 5px;
+        }
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            grid-template-columns: repeat(2,1fr);
+            margin: 30px;
+        
+        }
+        .feature-container{
+     
+            width: 100%;
+          
+            flex-direction: column-reverse;
+         }
+         .feature-text{
+             width: 100%;
+             padding: 30px;
+         }
+         footer{
+            width: 100%;
+        
+     }
+
+}
