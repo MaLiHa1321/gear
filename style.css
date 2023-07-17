@@ -163,7 +163,7 @@ footer{
     
 }
 .footer-container{
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     padding: 30px;
 }
@@ -206,18 +206,20 @@ footer p{
    
     }
     .sponser{
-        width: 80%
+        width: 90%
        
     }
     .sponser-container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        
      }
     .spons{
-        padding: 5px;
+        padding: 2px;
     }
     .card-content{
-        width: 70%;
+        width: 90%;
+        margin: 0 auto;
     }
     .container{
         width: 90%;
@@ -225,6 +227,9 @@ footer p{
         grid-template-columns: 1fr;
         margin: 30px;
     
+    }
+    .feature{
+        width: 100%;
     }
     .feature-container{
      
@@ -244,6 +249,11 @@ footer p{
  .see{
     width: 20%;
     color: #E02C6D;
+}
+footer p{
+   
+  width: 90%;
+  margin: 0 auto;
 }
     
 }
@@ -271,7 +281,7 @@ footer p{
        
      }
         .sponser{
-            width: 100%
+            width: 90%
            
         }
         .sponser-container{
@@ -282,7 +292,7 @@ footer p{
             padding: 5px;
         }
         .container{
-            width: 100%;
+            width: 90%;
             margin: 0 auto;
             grid-template-columns: repeat(2,1fr);
             margin: 30px;
@@ -290,7 +300,7 @@ footer p{
         }
         .feature-container{
      
-            width: 100%;
+            width: 90%;
           
             flex-direction: column-reverse;
          }
@@ -298,9 +308,23 @@ footer p{
              width: 100%;
              padding: 30px;
          }
+         .see{
+            width: 20%;
+            
+        }
+        .card-content{
+            width: 80%;
+            margin: 0 auto;
+        }
+     
          footer{
             width: 100%;
         
      }
+     footer p{
+   
+        width: 90%;
+        margin: 0 auto;
+      }
 
 }
